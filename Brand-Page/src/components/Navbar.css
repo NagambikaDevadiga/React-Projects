@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+:root {
+  --red: #d01c28;
+  --gray: #2e2e2e;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+  width: 90%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+ul {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+
+  li {
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+}
+
+button {
+  all: unset;
+  background-color: var(--red);
+  padding: 6px 16px;
+  color: #fff;
+  cursor: pointer;
+}
+
